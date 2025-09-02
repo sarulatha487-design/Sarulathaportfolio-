@@ -1,0 +1,9 @@
+function changeBackground() {
+  const colors = [
+    "linear-gradient(120deg, #f6d365, #fda085)",
+    "linear-gradient(120deg, #84fab0, #8fd3f4)",
+    "linear-gradient(120deg, #ffecd2, #fcb69f)",
+    "linear-gradient(120deg, #a1c4fd, #c2e9fb)"
+  ];
+  document.body.style.background = colors[Math.floor(Math.random() * colors.length)];
+}
